@@ -169,6 +169,12 @@ li {
   justify-content: space-between;
 }
 
+.food__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .food__item {
   position: relative;
   color: #fff;
@@ -190,9 +196,63 @@ li {
   justify-content: start;
   align-items: center;
 }
-.food__userimg {
-}
+
 .food__username {
   padding-top: 15px;
   margin-left: 20px;
 } 
+
+.food__item-card {
+  margin-bottom: 40px;
+}
+
+
+
+ul {
+  padding: 0;
+}
+
+.footer__btn {
+  border-radius: 10px;
+}
+
+.footer__title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer__product {
+  padding-top: 50px;
+}
+
+.footer__made {
+  margin-top: 52px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.food__list {
+  display: flex;
+  justify-content: space-between; 
+}
+
+@media screen and (max-width:992px) {
+  
+  .food__item {
+    margin-bottom: 30px;
+  }
+  .food__list {
+    display: flex;  
+    flex-direction: column;
+  }
+}
+
+
+@media screen and (max-width: 660px) {
+  .navbar {
+    display: none;
+  }
+  
+}
